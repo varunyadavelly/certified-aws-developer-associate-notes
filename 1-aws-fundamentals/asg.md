@@ -10,9 +10,9 @@ The goal of an Auto Scaling Group (ASG) is to:
 
 #### ASGs have the following attributes
 * A launch configuration
-    * AMI + Instance Type
+    * AMI(Amazon Machine Image) + Instance Type
     * EC2 User Data
-    * EBS Volumes
+    * EBS(Amazon Elastic Block Store) Volumes
     * Security Groups
     * SSH Key Pair
 * Min Size / Max Size / Initial Capacity
@@ -31,7 +31,7 @@ The goal of an Auto Scaling Group (ASG) is to:
 #### New Auto Scaling Rules
 * It is now possible to define “better” auto-scaling rules that are directly managed by EC2
     * Target Average CPU Usage
-    * Number of requests on the ELB per instance
+    * Number of requests on the ELB(Elastic Load Balancer) per instance
     * Average Network In
     * Average Network Out
 * These rules are easier to set up and can make more sense
